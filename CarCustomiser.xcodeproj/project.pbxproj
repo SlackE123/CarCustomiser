@@ -14,6 +14,10 @@
 		2F0E4AF92B5A82E3004E47B3 /* CarCustomiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E4AF82B5A82E3004E47B3 /* CarCustomiserTests.swift */; };
 		2F0E4B032B5A82E3004E47B3 /* CarCustomiserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E4B022B5A82E3004E47B3 /* CarCustomiserUITests.swift */; };
 		2F0E4B052B5A82E3004E47B3 /* CarCustomiserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E4B042B5A82E3004E47B3 /* CarCustomiserUITestsLaunchTests.swift */; };
+		2F0E4B122B5A83B5004E47B3 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E4B112B5A83B5004E47B3 /* Car.swift */; };
+		2F0E4B132B5A8404004E47B3 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E4B112B5A83B5004E47B3 /* Car.swift */; };
+		2F0E4B162B5AD0CC004E47B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E4AE92B5A82E0004E47B3 /* ContentView.swift */; };
+		2F0E4B172B5AD300004E47B3 /* CarCustomiserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E4AE72B5A82E0004E47B3 /* CarCustomiserApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,7 @@
 		2F0E4AFE2B5A82E3004E47B3 /* CarCustomiserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarCustomiserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0E4B022B5A82E3004E47B3 /* CarCustomiserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCustomiserUITests.swift; sourceTree = "<group>"; };
 		2F0E4B042B5A82E3004E47B3 /* CarCustomiserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCustomiserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F0E4B112B5A83B5004E47B3 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +103,7 @@
 				2F0E4AE92B5A82E0004E47B3 /* ContentView.swift */,
 				2F0E4AEB2B5A82E2004E47B3 /* Assets.xcassets */,
 				2F0E4AED2B5A82E2004E47B3 /* Preview Content */,
+				2F0E4B112B5A83B5004E47B3 /* Car.swift */,
 			);
 			path = CarCustomiser;
 			sourceTree = "<group>";
@@ -259,6 +265,7 @@
 			files = (
 				2F0E4AEA2B5A82E0004E47B3 /* ContentView.swift in Sources */,
 				2F0E4AE82B5A82E0004E47B3 /* CarCustomiserApp.swift in Sources */,
+				2F0E4B122B5A83B5004E47B3 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0E4B132B5A8404004E47B3 /* Car.swift in Sources */,
 				2F0E4AF92B5A82E3004E47B3 /* CarCustomiserTests.swift in Sources */,
+				2F0E4B172B5AD300004E47B3 /* CarCustomiserApp.swift in Sources */,
+				2F0E4B162B5AD0CC004E47B3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +439,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +468,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

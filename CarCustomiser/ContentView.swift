@@ -7,18 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct contentView: View {
+    let car = Car(make: "Audi", model: "R8", topSpeed: 203, acceleration: 3.2, handling: 5)
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text(car.displayStats())
+            .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    contentView()
 }

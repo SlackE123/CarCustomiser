@@ -11,7 +11,7 @@ import SwiftUI
 struct CarCustomiserApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            contentView()
         }
     }
 }
