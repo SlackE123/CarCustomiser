@@ -18,6 +18,25 @@ class CarCustomiserTests: XCTestCase {
         XCTAssertEqual(car.topSpeed, 203)
         XCTAssertEqual(car.acceleration, 3.2)
         XCTAssertEqual(car.handling, 8)
-        
+    
     }
+    
+    func testDisplayStatsShowsTheCorrectAttributesOfTheCar() {
+        //arrange
+        let starterCars = StarterCars()
+        
+        let car = starterCars.cars[0]
+        
+        //assert
+        
+        let actual = """
+                    Make of Car: \(car.make)
+                    Model: \(car.model)
+                    Top Speed: \(car.topSpeed)mph
+                    Acceleration (0-60): \(car.acceleration)s
+                    Handling: \(car.handling)
+                """
+        XCTAssertEqual(car.displayStats(),actual)
+    }
+    
 }
